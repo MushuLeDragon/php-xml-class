@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OS>
+    <data>
+        <OSes>
+            <centos>
+                <v_5>
+                    <i386>
+                        <id>centos5-32</id>
+                        <name>CentOS 5 - 32 bit</name>
+                        <version>5</version>
+                        <architecture>32</architecture>
+                        <os>centos</os>
+                    </i386>
+                    <x86_64>
+                        <id>centos5-64</id>
+                        <name>CentOS 5 - 64 bit</name>
+                        <version>5</version>
+                        <architecture>64</architecture>
+                        <os>centos</os>
+                    </x86_64>
+                </v_5>
+                <v_6>
+                    <i386>
+                        <id>centos6-32</id>
+                        <name>CentOS 6 - 32 bit</name>
+                        <version>6</version>
+                        <architecture>32</architecture>
+                        <os>centos</os>
+                    </i386>
+                    <x86_64>
+                        <id>centos6-64</id>
+                        <name>CentOS 6 - 64 bit</name>
+                        <version>6</version>
+                        <architecture>64</architecture>
+                        <os>centos</os>
+                    </x86_64>
+                </v_6>
+            </centos>
+            <ubuntu>
+                <v_10>
+                    <i386>
+                        <id>ubuntu10-32</id>
+                        <name>Ubuntu 10 - 32 bit</name>
+                        <version>10</version>
+                        <architecture>32</architecture>
+                        <os>ubuntu</os>
+                    </i386>
+                    <amd64>
+                        <id>ubuntu10-64</id>
+                        <name>Ubuntu 10 - 64 bit</name>
+                        <version>10</version>
+                        <architecture>64</architecture>
+                        <os>ubuntu</os>
+                    </amd64>
+                </v_10>
+            </ubuntu>
+        </OSes>
+    </data>
+</OS>
