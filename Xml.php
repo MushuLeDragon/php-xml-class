@@ -3,7 +3,6 @@
 class Xml {
 
     private $xml_file;
-    public $balises = array("to", "from", "heading", "body");
 
     public function __construct($path_file) {
         $this->xml_file = $path_file;
@@ -14,19 +13,16 @@ class Xml {
         return $this->xml_file;
     }
 
+    public function balises_path_xml() {
+
+    }
+
     public function extract_xml () {
+        
+        $results = $this->xml_file->xpath('*');
 
-        // var_dump($this->balises);
-        // var_dump($this->balises[0]);
-        // var_dump($this->xml_file->to);
-        // var_dump($this->xml_file->$this->balises);
-
-        foreach ($this->balises as $balise) {
-            $tmp = $this->xml_file->$balise;
-            $tmp =  $tmp . "<br>";
-            echo $tmp;
+        foreach ($results as $result) {
+            echo $result . "<br>";
         }
-
-        // return $this->xml_file;
     }
 }
